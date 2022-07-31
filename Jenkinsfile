@@ -8,13 +8,6 @@ pipeline {
                         sh 'mvn package'
                     }
                 }
-
-                stage('Hello') {
-                                steps {
-                                    echo 'Hello World'
-                                    }
-                                }
             }
         }
 
-}
