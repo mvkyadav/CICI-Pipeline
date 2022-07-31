@@ -4,7 +4,7 @@ pipeline {
         stages{
             stage('Build') {
                 steps {
-                    withMaven (maven: 'maven_3_8_5') {
+                    withMaven (maven: 'Maven_3_8_5') {
                         sh 'mvn package'
                     }
                 }
